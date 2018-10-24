@@ -11,6 +11,7 @@
 #include "Wall.h"
 #include "ClosedDoor.h"
 #include "Player.h"
+#include "Baddy.h"
 
 // The main() Function - entry point for our program
 int main()
@@ -48,6 +49,10 @@ int main()
 	Player playerSprite;
 
 
+	//Create the baddy sprite
+	Baddy baddySprite;
+
+
 	// -----------------------------------------------
 	// Game Loop
 	// -----------------------------------------------
@@ -82,6 +87,7 @@ int main()
 
 		// TODO: Update all game objects
 		playerSprite.Update(frameTime);
+		baddySprite.Update(frameTime);
 
 		// -----------------------------------------------
 		// Collision Section
@@ -102,6 +108,7 @@ int main()
 		aWall.Draw(gameWindow);
 		LockedDoor.Draw(gameWindow);
 		playerSprite.Draw(gameWindow);
+		baddySprite.Draw(gameWindow);
 		// Draw UI to the window
 		gameWindow.setView(gameWindow.getDefaultView());
 		// TODO: Draw UI objects

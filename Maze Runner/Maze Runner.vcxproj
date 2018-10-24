@@ -126,6 +126,7 @@
     <ClCompile Include="Animation.cpp" />
     <ClCompile Include="AnimationSystem.cpp" />
     <ClCompile Include="AssetManager.cpp" />
+    <ClCompile Include="Baddy.cpp" />
     <ClCompile Include="ClosedDoor.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -137,6 +138,7 @@
   <ItemGroup>
     <ClInclude Include="Animation.h" />
     <ClInclude Include="AssetManager.h" />
+    <ClInclude Include="Baddy.h" />
     <ClInclude Include="ClosedDoor.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="MovingObject.h" />
