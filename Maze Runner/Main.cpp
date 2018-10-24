@@ -10,6 +10,7 @@
 #include "AssetManager.h"
 #include "Wall.h"
 #include "ClosedDoor.h"
+#include "Player.h"
 
 // The main() Function - entry point for our program
 int main()
@@ -42,6 +43,9 @@ int main()
 
 	// Create a closed door
 	ClosedDoor LockedDoor;
+
+	//Create the player sprite
+	Player playerSprite;
 
 
 	// -----------------------------------------------
@@ -77,7 +81,7 @@ int main()
 		sf::Time frameTime = gameClock.restart();
 
 		// TODO: Update all game objects
-
+		playerSprite.Update(frameTime);
 
 		// -----------------------------------------------
 		// Collision Section
@@ -97,6 +101,7 @@ int main()
 		// TODO: Draw game objects
 		aWall.Draw(gameWindow);
 		LockedDoor.Draw(gameWindow);
+		playerSprite.Draw(gameWindow);
 		// Draw UI to the window
 		gameWindow.setView(gameWindow.getDefaultView());
 		// TODO: Draw UI objects

@@ -1,5 +1,5 @@
-﻿  ClosedDoor.cpp
-  Main.cpp
-c:\users\0809903\documents\github\mazerunner\maze runner\main.cpp(26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+﻿  Main.cpp
+c:\users\0809903\documents\github\mazerunner\maze runner\main.cpp(27): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Player.cpp
   Generating Code...
   Maze Runner.vcxproj -> C:\Users\0809903\Documents\GitHub\MazeRunner\Debug\Maze Runner.exe

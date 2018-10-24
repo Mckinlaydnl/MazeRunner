@@ -129,6 +129,8 @@
     <ClCompile Include="ClosedDoor.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MovingObject.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="SpriteObject.cpp" />
     <ClCompile Include="Wall.cpp" />
   </ItemGroup>
@@ -137,6 +139,8 @@
     <ClInclude Include="AssetManager.h" />
     <ClInclude Include="ClosedDoor.h" />
     <ClInclude Include="GameObject.h" />
+    <ClInclude Include="MovingObject.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="SpriteObject.h" />
     <ClInclude Include="Wall.h" />
   </ItemGroup>
