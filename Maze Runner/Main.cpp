@@ -9,6 +9,7 @@
 // Project Includes
 #include "AssetManager.h"
 #include "Wall.h"
+#include "ClosedDoor.h"
 
 // The main() Function - entry point for our program
 int main()
@@ -38,6 +39,10 @@ int main()
 
 	// Create a wall
 	Wall aWall;
+
+	// Create a closed door
+	ClosedDoor LockedDoor;
+
 
 	// -----------------------------------------------
 	// Game Loop
@@ -91,6 +96,7 @@ int main()
 		gameWindow.setView(camera);
 		// TODO: Draw game objects
 		aWall.Draw(gameWindow);
+		LockedDoor.Draw(gameWindow);
 		// Draw UI to the window
 		gameWindow.setView(gameWindow.getDefaultView());
 		// TODO: Draw UI objects

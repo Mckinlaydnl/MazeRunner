@@ -1,7 +1,5 @@
-﻿  GameObject.cpp
+﻿  ClosedDoor.cpp
   Main.cpp
-c:\users\0809903\documents\github\mazerunner\maze runner\main.cpp(25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  SpriteObject.cpp
-  Wall.cpp
+c:\users\0809903\documents\github\mazerunner\maze runner\main.cpp(26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Generating Code...
   Maze Runner.vcxproj -> C:\Users\0809903\Documents\GitHub\MazeRunner\Debug\Maze Runner.exe
